@@ -1,0 +1,33 @@
+@media only screen and (min-width: 992px) {
+    .ccm-ui .max-width-desktop {
+        max-width: 650px;
+    }
+}
+
+.ccm-ui .file-set-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.ccm-ui .file-set-list > li {
+    margin: 0 0 5px;
+    padding: 0;
+}
+
+.ccm-ui .file-set-list > li > a,
+.ccm-ui .file-set-list > li > span {
+    display: block;
+    padding: 10px 20px;
+    border: 1px solid #e3e3e3;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    color: #333;
+}
+
+.ccm-ui .file-set-list > li > a:hover,
+.ccm-ui .file-set-list > li > a:focus {
+    text-decoration: none;
+    color: #333;
+    background: #f7f7f7;
+}
