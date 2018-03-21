@@ -9,7 +9,7 @@ class Controller extends Package
 {
     protected $pkgHandle = 'sort_files_in_sets';
     protected $appVersionRequired = '5.7.5.6';
-    protected $pkgVersion = '1.0.0';
+    protected $pkgVersion = '1.0.1';
 
     public function getPackageName() {
         return t('Sort Files in Sets');
