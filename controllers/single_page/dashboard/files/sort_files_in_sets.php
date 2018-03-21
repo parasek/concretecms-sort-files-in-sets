@@ -92,7 +92,7 @@ class SortFilesInSets extends DashboardPageController
                    $tempFiles[$file->getFileID()] = $tempFileValue;
                }
 
-               asort($tempFiles);
+               asort($tempFiles, SORT_NATURAL);
 
                $positions = [];
                foreach ($tempFiles as $k => $v) {
