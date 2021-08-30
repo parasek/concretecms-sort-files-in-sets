@@ -4,7 +4,7 @@
 
     <div class="ccm-dashboard-header-buttons">
         <a href="<?php echo $app->make('url/manager')->resolve(['dashboard/files/sort_files_in_sets/bulk_sorting']); ?>"
-           class="btn btn-default"><i class="fa fa-angle-double-left"></i> <?php echo t('Go back'); ?></a>
+           class="btn btn-secondary"><i class="fa fa-angle-double-left"></i> <?php echo t('Go back'); ?></a>
     </div>
 
     <p><?php echo t('Files in Sets below will be sorted alphabetically by:'); ?></p>
@@ -38,8 +38,8 @@
 
         <div class="ccm-dashboard-form-actions-wrapper">
             <div class="ccm-dashboard-form-actions">
-                <a href="<?php echo $view->action('bulk_sorting'); ?>" class="btn btn-default pull-left">Anuluj</a>
-                <button class="pull-right btn btn-primary" type="submit" ><?php echo t('Confirm'); ?></button>
+                <a href="<?php echo $view->action('bulk_sorting'); ?>" class="btn btn-secondary float-start">Anuluj</a>
+                <button class="float-end btn btn-primary" type="submit" ><?php echo t('Confirm'); ?></button>
             </div>
         </div>
 
