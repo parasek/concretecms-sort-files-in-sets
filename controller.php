@@ -8,8 +8,8 @@ defined('C5_EXECUTE') or die('Access Denied.');
 class Controller extends Package
 {
     protected $pkgHandle = 'sort_files_in_sets';
-    protected $appVersionRequired = '5.7.5.6';
-    protected $pkgVersion = '1.0.1';
+    protected $appVersionRequired = '9.0.0';
+    protected $pkgVersion = '2.0.0';
 
     public function getPackageName() {
         return t('Sort Files in Sets');
